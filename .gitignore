@@ -1,0 +1,19 @@
+# Ignorar todo por defecto
+*
+
+# Permitir solo .pas
+!*.pas
+
+# Permitir estos archivos importantes
+!.gitignore
+!README.md
+!*.pdf
+
+# Archivos que seguro querés ignorar
+*.exe
+*.o
+*.ppu
+*.out
+*.compiled
+*.bak
+*.dcu
