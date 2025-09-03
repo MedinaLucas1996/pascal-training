@@ -7,11 +7,8 @@ Este repositorio contiene ejercicios prácticos de programación en Pascal.
 
 ## 📂 Contenido
 - Solo visualizar los archivos `.pas`
-- Implementar un `.gitignore` para omitir:
+- Se implementó un `.gitignore` para omitir:
   - Archivos `.exe`
   - Archivos de compilador
 
-## 🚀 Mejoras pendientes
-- [ ] Agregar ejemplos resueltos
-- [ ] Documentación de cada ejercicio
-- [ ] Explicación paso a paso
+
