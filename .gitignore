@@ -2,7 +2,7 @@
 *
 
 # Permitir solo .pas
-!*.pas
+!**/*.pas
 
 # Permitir estos archivos importantes
 !.gitignore
