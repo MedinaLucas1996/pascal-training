@@ -9,37 +9,36 @@ program ejercicio17;
 
 var
 	dia, mes, anio: integer;
-
+	aux: string;
 
 BEGIN
+	
+	
+	{ Solicitamos al usuario que ingrese la fecha. }
+	writeln('Ingrese una fecha formato "dd mm yy"');
+	readln(dia, mes, anio);
 
-writeln('Ingrese una fecha formato "dd mm yy"');
-readln(dia, mes, anio);
-
-write(dia,' de ');
-
-
+	{ Dependiendo de que se ingresa en el valor del mes, se asigna a una variable }
   case mes of
-    1: write('Enero');
-    2: write('Febrero');
-    3: write('Marzo');
-    4: write('Abril');
-    5: write('Mayo');
-    6: write('Junio');
-    7: write('Julio');
-    8: write('Agosto');
-    9: write('Septiembre');
-    10: write('Octubre');
-    11: write('Noviembre');
-    12: write('Diciembre');
+    1: aux:= 'Enero';
+    2: aux:= 'Febrero';
+    3: aux:= 'Marzo';
+    4: aux:= 'Abril';
+    5: aux:= 'Mayo';
+    6: aux:= 'Junio';
+    7: aux:= 'Julio';
+    8: aux:= 'Agosto';
+    9: aux:= 'Septiembre';
+    10: aux:= 'Octubre';
+    11: aux:= 'Noviembre';
+    12: aux:= 'Diciembre';
   else
-    write('Mes invalido');
+    writeln('Mes invalido');
   end;
 
-write(' del 20', anio);
-
-
 	
-	
+	{ Se muestra el resultado }
+	writeln(dia,' de ',aux,' del 20',anio);
+
 END.
 
