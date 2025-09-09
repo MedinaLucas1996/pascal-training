@@ -1,7 +1,8 @@
 # Ignorar todo por defecto
 *
 
-# Permitir solo .pas
+# Permitir carpetas y solo .pas
+!*/
 !**/*.pas
 
 # Permitir estos archivos importantes
