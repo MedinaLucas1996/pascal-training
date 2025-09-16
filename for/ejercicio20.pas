@@ -6,7 +6,7 @@
 }
 
 
-program untitled;
+program ejercicio20;
 
 
 var 
