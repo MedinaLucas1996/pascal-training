@@ -15,8 +15,10 @@ const
 
 BEGIN
 	
+	{ Se realiza un contador que inicia en 100 hasta el maximo que es la constante 200. }
 	for i := 100 to max do
 		begin
+			{ Se hace un if donde si el numero es par, se imprima }
 			if i mod 2 = 0 then
 				writeln(i)
 		end;
