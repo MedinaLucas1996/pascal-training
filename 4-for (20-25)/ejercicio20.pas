@@ -1,41 +1,26 @@
 {
-   Se deben obtener las temperaturas promedio de una semana tipo.
-   Para ello se registraran las temperaturas promedio de cada dia.
-   
-   - Desarroll un programa que calcule y muestre el promedio de temperaturas de la semana.
+20) Desarrolle un programa que imprima los números del 1 al 10 y luego del 10 al 1.
 }
 
 
-program ejercicio20;
+program ejercicio20guia;
 
 
-var 
-	dia: integer;
-	promedio, temperatura, acum: real;
-	
+var
+	i,j: integer;
 
+const
+	max = 10;
+	min = 1;
 
 BEGIN
-	{Inicializo la variable del contador}
-	acum:= 0;
+	for i:= 1 to max do
+	writeln(i);
+		
+writeln('************************');
 	
-	for dia := 1 to 7 do
-	begin
+	for j:= 10 downto min do
+	writeln(j);
 	
-		{Ingresamos la temperatura del dia}
-		writeln('Ingrese la temperatura del dia de la semana Nro: ',dia);
-		readln(temperatura);
-	
-	
-		{Acumulamos las temperaturas de los 7 dias}
-		acum:= acum + temperatura;
-	end;
-
-	{Divido el acumulado por 7 y guardo en la variable promedio}
-	promedio:= acum / 7;
-	
-	
-	{Se muestra por pantalla el promedio}
-	writeln('El promedio de las temperaturas es: ',promedio:0:2);
 END.
 
