@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 19) * Desarrolle un programa que calcule la Edad exacta de una persona en Años, Meses y Días.
 }
 
@@ -47,6 +48,26 @@ BEGIN
   writeln;
   writeln('Edad exacta: ', anios, ' anios, ', meses, ' meses y ', dias, ' dias.');
 end.
+=======
+
+19) * Desarrolle un programa que calcule la Edad exacta de una persona en Años, Meses y Días.
+   
+}
+
+
+program ejercicio19;
+
+
+var i : byte;
+
+
+
+
+
+
+BEGIN
+	
+>>>>>>> 8e9958f (Actualizacion de la guia de ejercicios.)
 	
 END.
 
