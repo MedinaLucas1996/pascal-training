@@ -1,3 +1,8 @@
+{
+55) Desarrolle un programa que solicite el ingreso de 15 notas numéricas de alumnos, considerando que se
+aprueba con nota 6, liste con color verde las notas aprobadas y con color rojo las notas reprobadas.
+}
+
 program ejercicio55;
 uses crt;
 

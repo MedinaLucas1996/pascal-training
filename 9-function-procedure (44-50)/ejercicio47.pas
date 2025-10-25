@@ -1,3 +1,7 @@
+{
+47) Desarrolle un programa con una FUNCIÓN para calcular la potencia N de un número ingresado por el usuario
+}
+
 program ejercicio47;
 uses crt;
 

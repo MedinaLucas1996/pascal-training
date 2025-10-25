@@ -1,8 +1,9 @@
-program ConvertirMayuscula;
 {
-  Ejercicio 44: Programa con una FUNCIÓN para convertir un carácter
+  44) Programa con una FUNCIÓN para convertir un carácter
   ingresado por el usuario en mayúscula
 }
+
+program ejercicio44;
 
 function ConvertirAMayuscula(caracter: char): char;
 {

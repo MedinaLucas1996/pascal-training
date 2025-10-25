@@ -1,4 +1,9 @@
-program DeterminarSiEsNumero;
+{
+  45) Desarrolle un programa con una FUNCIÓN que determine si un caracter ingresado por el usuario es un
+número.
+}
+
+program ejercicio45;
 uses crt;
 
 function EsNumero(car: char): boolean;

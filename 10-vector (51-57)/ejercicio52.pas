@@ -1,3 +1,7 @@
+{
+52) Desarrolle un programa para convertir una palabra ingresada por el usuario en mayúsculas
+}
+
 program ejercicio52;
 uses crt;
 

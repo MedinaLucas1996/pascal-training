@@ -1,3 +1,8 @@
+{
+48) Desarrolle un programa con una FUNCIÓN para calcular el porcentaje X de un número ingresado por el
+usuario.
+}
+
 program ejercicio48;
 uses crt;
 

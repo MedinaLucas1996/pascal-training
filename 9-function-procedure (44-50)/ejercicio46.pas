@@ -1,3 +1,8 @@
+{
+46) Desarrolle un programa con una FUNCIÓN que determine si un caracter ingresado por el usuario es un
+número, una letra minúscula o mayúscula, u otro caracter
+}
+
 program ejercicio46;
 uses crt;
 

@@ -1,3 +1,7 @@
+{
+53) Desarrolle el juego del ahorcado
+}
+
 program juego_ahorcado;
 uses crt;
 

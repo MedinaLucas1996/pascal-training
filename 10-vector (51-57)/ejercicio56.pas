@@ -1,3 +1,10 @@
+{
+56) Desarrolle un programa que llene un vector con 20 números enteros al azar. Determine cuál es el mayor, el
+menor, y en qué posición está cada uno. Calcule el promedio y liste con color blanco los números superiores
+al promedio y con color naranja los números inferiores al promedio.
+}
+
+
 program ejercicio56;
 uses crt;
 

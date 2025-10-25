@@ -1,3 +1,9 @@
+{
+57) Desarrolle un programa que solicite el ingreso del sueldo de 10 empleados (valores entre 100 y 2000). Calcule
+el promedio de los sueldos y liste con color azul los sueldos superiores al promedio y con color amarillo los
+sueldos inferiores al promedio. Permita buscar un sueldo e indique su posición en la lista
+}
+
 program ejercicio57;
 uses crt;
 

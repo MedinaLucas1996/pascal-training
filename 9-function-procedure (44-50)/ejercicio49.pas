@@ -1,3 +1,8 @@
+{
+49) Desarrolle un programa con un PROCEDIMIENTO para generar N números al azar, y una FUNCIÓN para
+calcular su valor promedio.
+}
+
 program ejercicio49;
 uses crt;
 

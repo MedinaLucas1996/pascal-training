@@ -1,3 +1,9 @@
+{
+50) Desarrolle un programa con un PROCEDIMIENTO que solicite al usuario el ingreso de 2 números, y luego
+pregunte cuál de las cuatro operaciones básicas va a realizar, resolver utilizando FUNCIONES, y luego
+imprimir el resultado. Validar los valores ingresados.
+}
+
 program ejercicio50;
 uses crt;
 

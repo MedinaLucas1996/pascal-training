@@ -1,3 +1,8 @@
+{
+54) Desarrolle un programa que permita cargar 10 nombres de países. Luego el usuario puede ingresar 1 letra y el
+programa debe imprimir el listado de los países con nombre que inicien con la letra ingresada.
+}
+
 program ejercicio54;
 uses crt;
 
